@@ -7,8 +7,8 @@ export async function getCars() {
 		url: 'https://cars-by-api-ninjas.p.rapidapi.com/v1/cars',
 		params: { model: 'a5' },
 		headers: {
-			'X-RapidAPI-Key': 'fa37f70c0amsh605a37fe7d29051p1b0b70jsn48ed6fd4016e',
-			'X-RapidAPI-Host': 'cars-by-api-ninjas.p.rapidapi.com'
+			'X-RapidAPI-Key': process.env.XRapidAPIKey,
+			'X-RapidAPI-Host': process.env.XRapidAPIHost
 		}
 	};
 
