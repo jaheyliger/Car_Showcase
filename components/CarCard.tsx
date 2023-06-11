@@ -15,11 +15,13 @@ const CarCard = ({ car }: CarCardProps) => {
 	const [isOpen, setIsOpen] = useState(false);
 	const carRent = calculateCarRent(city_mpg, year);
 
+	console.log(generateCarImageURL(car));
+
 	return (
 		<div className='car-card group'>
 			<div className='car-card__content'>
 				<h2 className='car-card__content-title'>
-					{make} {model}
+					{year} {make} {model}
 				</h2>
 			</div>
 			<p className='flex mt-6 text-[32px] font-extrabold'>
