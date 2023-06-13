@@ -34,6 +34,7 @@ export const manufacturers = [
 	'Nissan',
 	'Porsche',
 	'Ram',
+	'Rivian',
 	'Rolls-Royce',
 	'Subaru',
 	'Tesla',
